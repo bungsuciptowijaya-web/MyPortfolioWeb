@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hobi & Info Lainnya - Bungsu Cipto Wijaya</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f0f4f8;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      color: #cbd5e1;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background: #1e293b;
+    }
+
+    nav li {
+      margin: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+
+    nav a:hover, nav .active {
+      background: #2563eb;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .hobi h2 {
+      color: #1e40af;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .hobi p {
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .youtube-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin: 30px auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.youtube-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.yt-button-overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ff0000;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+.yt-button-overlay:hover {
+  background: #cc0000;
+  transform: translateX(-50%) scale(1.05);
+}
+
+
+    .yt-button {
+      display: inline-block;
+      background: #ff0000;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 10px;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .yt-button:hover {
+      background: #cc0000;
+      transform: scale(1.05);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+    }
+
+    footer {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #111827;
+  color: #f3f4f6;
+  margin-top: 60px;
+  border-top: 4px solid #2563eb;
+}
+
+footer p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+footer h3 {
+  font-size: 20px;
+  margin: 15px 0;
+  color: #60a5fa;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.social-links a {
+  font-size: 24px;
+  color: #f3f4f6;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #60a5fa;
+  transform: scale(1.2);
+}
+
+  </style>
+</head>
+<body>
+
+    <header class="navbar">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="experience.html">Work Experience</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="certificate.html">online certificate</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="other information.html" class="active">Other information</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="education" class="fade-in">
+            <h2 class="section-title">More information</h2>
+
+  <section class="hobi">
+    <h2><i class="fas fa-drum"></i> Main Drum & nge-Band</h2>
+    <p>Musik bukan hanya sekadar hobi bagi saya, tetapi juga cara untuk menyampaikan emosi dan menciptakan harmoni dalam tim. Sebagai drummer band, saya belajar tentang kekompakan, kreativitas, dan pentingnya bekerja sama dengan orang lain untuk mencapai satu tujuan. Kami sering tampil dalam berbagai event dan bahkan pernah meraih juara. Ini menjadi bukti bahwa kerja keras dan latihan membuahkan hasil.</p>
+    <div class="gallery">
+      <img src="asset/aku dan drum.jpg" alt="Tampil band" />
+      <img src="asset/aku di pb.jpg" alt="Band tampil" />
+      <img src="asset/aku drum pb.jpg" alt="Drum di panggung" />
+      <img src="asset/aku pb1.jpg" alt="Band juara" />
+      <img src="asset/manggung .jpg" alt="Manggung bersama band" />
+    </div>
+  </section>
+
+  <section class="hobi">
+    <h2><i class="fas fa-mountain"></i> Mendaki Gunung</h2>
+    <p>Mendaki gunung mengajarkan saya arti ketahanan, konsistensi, dan saling menjaga dalam tim. Setiap langkah menuju puncak adalah simbol dari perjuangan saya dalam hidup: penuh tantangan, namun selalu ada keindahan yang menanti. Dari pendakian, saya belajar bahwa tidak semua hal instan—kadang perlu waktu, usaha, dan kesabaran luar biasa untuk meraih puncak harapan.</p>
+    <div class="gallery">
+      <img src="asset/aku naik gunung.jpg" alt="Pendakian" />
+      <img src="asset/online certificate/syur.jpg" alt="Pendakian" />
+      <img src="asset/online certificate/gede.jpg" alt="Pendakian" />
+      <img src="asset/gunung.jpg" alt="Pemandangan dari puncak" />
+    </div>
+  </section>
+
+  <section class="hobi">
+    <h2><i class="fas fa-book"></i> Belajar hal- hal baru seperti Sejarah & Sains</h2>
+    <p>Saya adalah pribadi yang haus akan pengetahuan. Sejarah mengajarkan saya tentang nilai kehidupan dan kemanusiaan, sementara ilmu sains seperti kimia dan fisika membantu saya memahami alam semesta secara logis. Dengan semangat belajar tersebut, saya membuat <strong>channel YouTube</strong> yang menyederhanakan materi sejarah agar lebih menarik dan edukatif. Saya percaya, belajar adalah proses seumur hidup.</p>
+  
+    <div class="youtube-wrapper">
+      <img src="asset/channel yt.png" alt="Channel YouTube Bungsu Cipto Wijaya" />
+      <a href="https://www.youtube.com/@historyandmemories7811" target="_blank" class="yt-button-overlay">
+        <i class="fab fa-youtube"></i> Kunjungi Channel YouTube Saya
+      </a>
+    </div>
+  </section>
+  
+
+  <section class="hobi">
+    <h2><i class="fas fa-store"></i> Jualan Cimin & Maklor</h2>
+    <p>Di sela waktu, saya menjalani usaha kecil-kecilan menjual cimin dan maklor. Aktivitas ini mengajarkan saya arti tanggung jawab, ketekunan, dan bagaimana membangun relasi dengan pelanggan. Dari sini, saya belajar untuk tidak malu memulai dari bawah. Semua pekerjaan adalah mulia, selama dilakukan dengan ikhlas dan niat yang baik.</p>
+    <div class="gallery">
+      <img src="asset/online certificate/somay.jpg" alt="Jualan" style="max-width: 300px; height: auto; border-radius: 10px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);" />
+    </div>
+  </section>
+
+  <section class="hobi">
+    <h2><i class="fas fa-book-reader"></i> Membaca Buku</h2>
+    <p>Membaca buku adalah salah satu cara saya memperluas wawasan dan menenangkan pikiran. Buku-buku tentang pengembangan diri, motivasi, hingga biografi tokoh inspiratif memperkaya pola pikir saya. Saya percaya bahwa setiap buku punya nilai yang bisa membentuk karakter kita menjadi pribadi yang lebih tangguh dan bijaksana.</p>
+  </section>
+
+  <section class="hobi">
+    <h2><i class="fas fa-film"></i> Menonton Film</h2>
+    <p>Saya juga menyukai film, baik fiksi maupun dokumenter. Dari film, saya belajar tentang budaya, empati, hingga strategi dalam kehidupan. Film adalah jendela lain untuk memahami dunia dan diri sendiri, sekaligus sarana hiburan yang penuh inspirasi.</p>
+  </section>
+
+  <section class="hobi">
+    <h2>🔥 Memiliki Semangat Juang Tinggi</h2>
+    <p>Saya adalah pribadi yang semangat, jujur, disiplin, dan tidak mudah menyerah. Saya selalu percaya bahwa dengan kemauan kuat, kerja keras, dan semangat belajar tanpa henti, saya bisa mengatasi rintangan apa pun. Setiap pengalaman, baik suka maupun duka, saya jadikan pelajaran berharga untuk terus bertumbuh menjadi pribadi yang lebih baik.</p>
+  </section>
+  <div><a href="index.html" class="btn">Back To Home</a></div>
+
+  <footer>
+    <p>✨ Terima kasih sudah mengunjungi website portfolio saya, Jangan pernah berhenti untuk bermimpi dan teruslah belajar dan menguasai banyak hal! 💪</p>
+  </footer>
+  
+
+  <script>
+    ScrollReveal().reveal('.hobi', {
+      origin: 'bottom',
+      distance: '40px',
+      duration: 1000,
+      easing: 'ease-out',
+      interval: 200
+    });
+  </script>
+</body>
+</html>
